@@ -38,6 +38,13 @@ namespace Counting_Project
             this.label3 = new System.Windows.Forms.Label();
             this.cmbDivisibleTerm = new System.Windows.Forms.ComboBox();
             this.textDivisibleNumbers = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbBlack = new System.Windows.Forms.RadioButton();
+            this.rbRed = new System.Windows.Forms.RadioButton();
+            this.rbBlue = new System.Windows.Forms.RadioButton();
+            this.rbGreen = new System.Windows.Forms.RadioButton();
+            this.rbOrange = new System.Windows.Forms.RadioButton();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -55,7 +62,7 @@ namespace Counting_Project
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(312, 40);
+            this.label2.Location = new System.Drawing.Point(300, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 20);
             this.label2.TabIndex = 1;
@@ -64,25 +71,27 @@ namespace Counting_Project
             // textStartFrom
             // 
             this.textStartFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textStartFrom.Location = new System.Drawing.Point(158, 40);
+            this.textStartFrom.Location = new System.Drawing.Point(187, 43);
             this.textStartFrom.Name = "textStartFrom";
-            this.textStartFrom.Size = new System.Drawing.Size(148, 26);
+            this.textStartFrom.Size = new System.Drawing.Size(98, 26);
             this.textStartFrom.TabIndex = 2;
             this.textStartFrom.TextChanged += new System.EventHandler(this.textStartFrom_TextChanged);
+            this.textStartFrom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textStartFrom_KeyPress);
             // 
             // textTo
             // 
             this.textTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textTo.Location = new System.Drawing.Point(369, 43);
+            this.textTo.Location = new System.Drawing.Point(335, 43);
             this.textTo.Name = "textTo";
-            this.textTo.Size = new System.Drawing.Size(160, 26);
+            this.textTo.Size = new System.Drawing.Size(87, 26);
             this.textTo.TabIndex = 3;
             this.textTo.TextChanged += new System.EventHandler(this.textTo_TextChanged);
+            this.textTo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textStartFrom_KeyPress);
             // 
             // btnCount
             // 
             this.btnCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCount.Location = new System.Drawing.Point(208, 179);
+            this.btnCount.Location = new System.Drawing.Point(187, 179);
             this.btnCount.Name = "btnCount";
             this.btnCount.Size = new System.Drawing.Size(98, 33);
             this.btnCount.TabIndex = 4;
@@ -93,7 +102,7 @@ namespace Counting_Project
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(347, 179);
+            this.btnExit.Location = new System.Drawing.Point(335, 179);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(87, 33);
             this.btnExit.TabIndex = 5;
@@ -116,9 +125,9 @@ namespace Counting_Project
             // 
             this.cmbDivisibleTerm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbDivisibleTerm.FormattingEnabled = true;
-            this.cmbDivisibleTerm.Location = new System.Drawing.Point(208, 112);
+            this.cmbDivisibleTerm.Location = new System.Drawing.Point(187, 115);
             this.cmbDivisibleTerm.Name = "cmbDivisibleTerm";
-            this.cmbDivisibleTerm.Size = new System.Drawing.Size(226, 28);
+            this.cmbDivisibleTerm.Size = new System.Drawing.Size(235, 28);
             this.cmbDivisibleTerm.TabIndex = 6;
             this.cmbDivisibleTerm.SelectedIndexChanged += new System.EventHandler(this.cmbDivisibleTerm_SelectedIndexChanged);
             // 
@@ -132,11 +141,88 @@ namespace Counting_Project
             this.textDivisibleNumbers.Size = new System.Drawing.Size(800, 215);
             this.textDivisibleNumbers.TabIndex = 7;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rbOrange);
+            this.groupBox1.Controls.Add(this.rbGreen);
+            this.groupBox1.Controls.Add(this.rbBlue);
+            this.groupBox1.Controls.Add(this.rbRed);
+            this.groupBox1.Controls.Add(this.rbBlack);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(460, 43);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 169);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Select Color";
+            // 
+            // rbBlack
+            // 
+            this.rbBlack.AutoSize = true;
+            this.rbBlack.Checked = true;
+            this.rbBlack.Location = new System.Drawing.Point(7, 23);
+            this.rbBlack.Name = "rbBlack";
+            this.rbBlack.Size = new System.Drawing.Size(65, 21);
+            this.rbBlack.TabIndex = 0;
+            this.rbBlack.TabStop = true;
+            this.rbBlack.Text = "Black";
+            this.rbBlack.UseVisualStyleBackColor = true;
+            this.rbBlack.CheckedChanged += new System.EventHandler(this.rbBlack_CheckedChanged);
+            // 
+            // rbRed
+            // 
+            this.rbRed.AutoSize = true;
+            this.rbRed.Location = new System.Drawing.Point(7, 50);
+            this.rbRed.Name = "rbRed";
+            this.rbRed.Size = new System.Drawing.Size(55, 21);
+            this.rbRed.TabIndex = 0;
+            this.rbRed.TabStop = true;
+            this.rbRed.Text = "Red";
+            this.rbRed.UseVisualStyleBackColor = true;
+            this.rbRed.CheckedChanged += new System.EventHandler(this.rbRed_CheckedChanged);
+            // 
+            // rbBlue
+            // 
+            this.rbBlue.AutoSize = true;
+            this.rbBlue.Location = new System.Drawing.Point(7, 79);
+            this.rbBlue.Name = "rbBlue";
+            this.rbBlue.Size = new System.Drawing.Size(58, 21);
+            this.rbBlue.TabIndex = 0;
+            this.rbBlue.TabStop = true;
+            this.rbBlue.Text = "Blue";
+            this.rbBlue.UseVisualStyleBackColor = true;
+            this.rbBlue.CheckedChanged += new System.EventHandler(this.rbBlue_CheckedChanged);
+            // 
+            // rbGreen
+            // 
+            this.rbGreen.AutoSize = true;
+            this.rbGreen.Location = new System.Drawing.Point(6, 106);
+            this.rbGreen.Name = "rbGreen";
+            this.rbGreen.Size = new System.Drawing.Size(71, 21);
+            this.rbGreen.TabIndex = 0;
+            this.rbGreen.TabStop = true;
+            this.rbGreen.Text = "Green";
+            this.rbGreen.UseVisualStyleBackColor = true;
+            this.rbGreen.CheckedChanged += new System.EventHandler(this.rbGreen_CheckedChanged);
+            // 
+            // rbOrange
+            // 
+            this.rbOrange.AutoSize = true;
+            this.rbOrange.Location = new System.Drawing.Point(7, 133);
+            this.rbOrange.Name = "rbOrange";
+            this.rbOrange.Size = new System.Drawing.Size(80, 21);
+            this.rbOrange.TabIndex = 0;
+            this.rbOrange.TabStop = true;
+            this.rbOrange.Text = "Orange";
+            this.rbOrange.UseVisualStyleBackColor = true;
+            this.rbOrange.CheckedChanged += new System.EventHandler(this.rbOrange_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textDivisibleNumbers);
             this.Controls.Add(this.cmbDivisibleTerm);
             this.Controls.Add(this.btnExit);
@@ -149,6 +235,8 @@ namespace Counting_Project
             this.Name = "Form1";
             this.Text = "Counting Numbers";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,6 +253,12 @@ namespace Counting_Project
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbDivisibleTerm;
         private System.Windows.Forms.TextBox textDivisibleNumbers;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton rbOrange;
+        private System.Windows.Forms.RadioButton rbGreen;
+        private System.Windows.Forms.RadioButton rbBlue;
+        private System.Windows.Forms.RadioButton rbRed;
+        private System.Windows.Forms.RadioButton rbBlack;
     }
 }
 

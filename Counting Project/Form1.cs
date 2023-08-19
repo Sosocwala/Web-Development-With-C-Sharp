@@ -83,6 +83,74 @@ namespace Counting_Project
 
         }
 
+        private void textStartFrom_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void rbBlack_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbBlack.Checked)
+            {
+                rbRed.Checked = false;
+                rbOrange.Checked = false;
+                rbBlue.Checked = false;
+                rbGreen.Checked = false;
+                textDivisibleNumbers.ForeColor = Color.Black;
+            }
+        }
+
+        private void rbRed_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbRed.Checked) 
+            {
+                rbBlack.Checked = false;
+                rbOrange.Checked = false;
+                rbBlue.Checked = false;
+                rbGreen.Checked = false;
+                textDivisibleNumbers.ForeColor = Color.Red;
+            }
+        }
+
+        private void rbBlue_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbBlue.Checked)
+            {
+                rbRed.Checked = false;
+                rbOrange.Checked = false;
+                rbBlack.Checked = false;
+                rbGreen.Checked = false;
+                textDivisibleNumbers.ForeColor = Color.Blue;
+            }
+        }
+
+        private void rbGreen_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbGreen.Checked)
+            {
+                rbRed.Checked = false;
+                rbOrange.Checked = false;
+                rbBlue.Checked = false;
+                rbBlack.Checked = false;
+                textDivisibleNumbers.ForeColor = Color.Green;
+            }
+        }
+
+        private void rbOrange_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbOrange.Checked)
+            {
+                rbRed.Checked = false;
+                rbBlack.Checked = false;
+                rbBlue.Checked = false;
+                rbGreen.Checked = false;
+                textDivisibleNumbers.ForeColor = Color.Orange; 
+            }
+        }
+
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
