@@ -46,7 +46,7 @@ namespace Counting_Project
                     {
                         divisibleNumber += i.ToString() + " ";
                         if (controlNumber % 10 == 0)
-                            divisibleNumber += Environment.NewLine
+                            divisibleNumber += Environment.NewLine;
                         controlNumber++;
                     }
                 }
