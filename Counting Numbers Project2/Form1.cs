@@ -49,7 +49,7 @@ namespace Counting_Numbers_Project2
                 rbGreen.Checked = false;
                 rbOrange.Checked = false;
                 rbRed.Checked = false;
-                textOutput.ForeColor = Color.Yellow
+                textOutput.ForeColor = Color.Yellow;
             }
         }
 
