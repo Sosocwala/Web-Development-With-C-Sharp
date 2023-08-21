@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jump Statement", "Jump Stat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counting Numbers Project2", "Counting Numbers Project2\Counting Numbers Project2.csproj", "{77A0A638-AF55-4098-88EC-A048E4466404}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{73F19B90-0FD8-4AAB-B1C9-1AD4D54A54C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{77A0A638-AF55-4098-88EC-A048E4466404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A0A638-AF55-4098-88EC-A048E4466404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A0A638-AF55-4098-88EC-A048E4466404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F19B90-0FD8-4AAB-B1C9-1AD4D54A54C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F19B90-0FD8-4AAB-B1C9-1AD4D54A54C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F19B90-0FD8-4AAB-B1C9-1AD4D54A54C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F19B90-0FD8-4AAB-B1C9-1AD4D54A54C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
