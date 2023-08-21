@@ -76,7 +76,7 @@ namespace Counting_Numbers_Project2
                 textOutput.ForeColor = Color.Blue;
             }
         }
-
+         
         private void rbGreen_CheckedChanged(object sender, EventArgs e)
         {
             if (rbGreen.Checked)
@@ -116,6 +116,18 @@ namespace Counting_Numbers_Project2
                 e.Handled = true;
             }
         }
+
+        private void chBold_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chBold.Checked)
+                textOutput.Font = new Font(textOutput.Font.FontFamily, textOutput.Font.Size, FontStyle.Bold);
+            else
+            {
+                textOutput.Font = new Font(textOutput.Font.FontFamily, textOutput.Font.Size, FontStyle.Regular);
+            }
+        }
+        
+
 
         private void btnCount_Click(object sender, EventArgs e)
         {
