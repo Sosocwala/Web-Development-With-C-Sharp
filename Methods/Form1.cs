@@ -70,7 +70,7 @@ namespace Methods
             MessageBox.Show(name);
             int result = sum(Convert.ToInt32(textBox1.Text), Convert.ToInt32(textBox2.Text));
             MessageBox.Show(result.ToString());
-            string names = valueControl("Awomi", true);
+            string names = valueControl("Awomi", true)
             MessageBox.Show(names);
 
         }
