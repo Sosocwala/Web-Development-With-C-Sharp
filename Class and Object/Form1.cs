@@ -39,7 +39,7 @@ namespace Class_and_Object
             personalDetails.name = textName.Text;
             personalDetails.age = Convert.ToInt32(textAge.Text);
             Form2 frmSecond = new Form2();
-            frmSecond.personalDetails = personalDetails;
+            frmSecond.personalDetails = personalDetails
             frmSecond.ShowDialog();
 
         }
