@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using List Class", "Using L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List Class", "List Class\List Class.csproj", "{518F8424-694C-4FDE-9D6B-B3797A5F8F93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Random Class", "Using Random Class\Using Random Class.csproj", "{EAC7EAEA-889E-4BFD-843C-824C2F6D1C1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,12 +88,17 @@ Global
 		{518F8424-694C-4FDE-9D6B-B3797A5F8F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{518F8424-694C-4FDE-9D6B-B3797A5F8F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{518F8424-694C-4FDE-9D6B-B3797A5F8F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC7EAEA-889E-4BFD-843C-824C2F6D1C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC7EAEA-889E-4BFD-843C-824C2F6D1C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC7EAEA-889E-4BFD-843C-824C2F6D1C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC7EAEA-889E-4BFD-843C-824C2F6D1C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2253BC3A-C1D3-4730-B84E-C950E4B63343} = {D580A81A-4C26-436D-8D88-6C3BA8E04EAC}
+		{EAC7EAEA-889E-4BFD-843C-824C2F6D1C1D} = {D580A81A-4C26-436D-8D88-6C3BA8E04EAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6E73732-70D2-4ABB-8E35-930BB5B06798}
