@@ -43,5 +43,10 @@ namespace Class_and_Object
             frmSecond.ShowDialog();
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
