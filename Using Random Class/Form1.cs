@@ -37,7 +37,7 @@ namespace Using_Random_Class
             /*label1.Text = rrnd.Next(10, 100).ToString();
             label2.Text = rrnd.Next(10, 100).ToString();
             label3.Text = rrnd.Next(10, 100).ToString();
-            label4.Text = rrnd.Next(10, 100).ToString();
+            l abel4.Text = rrnd.Next(10, 100).ToString();
             label5.Text = rrnd.Next(10, 100).ToString();
             label6.Text = rrnd.Next(10, 100).ToString();*/
         }
@@ -45,11 +45,6 @@ namespace Using_Random_Class
         private void label2_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void brnExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void btnPwd_Click(object sender, EventArgs e)
