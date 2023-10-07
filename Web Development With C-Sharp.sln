@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Random Class", "Using
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Timer Class", "Using Timer Class\Using Timer Class.csproj", "{83070493-F4F8-4C58-B8FF-F6A74F9AF3CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maths_Class", "Maths_Class\Maths_Class.csproj", "{D66069EA-C163-4F50-A0F5-3050329028DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,10 @@ Global
 		{83070493-F4F8-4C58-B8FF-F6A74F9AF3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83070493-F4F8-4C58-B8FF-F6A74F9AF3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83070493-F4F8-4C58-B8FF-F6A74F9AF3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66069EA-C163-4F50-A0F5-3050329028DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66069EA-C163-4F50-A0F5-3050329028DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66069EA-C163-4F50-A0F5-3050329028DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66069EA-C163-4F50-A0F5-3050329028DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +107,7 @@ Global
 		{518F8424-694C-4FDE-9D6B-B3797A5F8F93} = {D580A81A-4C26-436D-8D88-6C3BA8E04EAC}
 		{EAC7EAEA-889E-4BFD-843C-824C2F6D1C1D} = {D580A81A-4C26-436D-8D88-6C3BA8E04EAC}
 		{83070493-F4F8-4C58-B8FF-F6A74F9AF3CE} = {D580A81A-4C26-436D-8D88-6C3BA8E04EAC}
+		{D66069EA-C163-4F50-A0F5-3050329028DF} = {D580A81A-4C26-436D-8D88-6C3BA8E04EAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6E73732-70D2-4ABB-8E35-930BB5B06798}
