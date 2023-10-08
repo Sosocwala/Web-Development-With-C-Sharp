@@ -66,7 +66,7 @@ namespace Maths_Class
                 control = true;
                 firstNumber = Convert.ToDouble(text);
                 secondNumber = Convert.ToDouble(text2);
-            }
+            }    
 
         }
         private void textFirstNumber_KeyPress(object sender, KeyPressEventArgs e)
@@ -155,11 +155,30 @@ namespace Maths_Class
             {
                 MessageBox.Show(message);
             }
-            else
+            else 
             {
                 double temp = (firstNumber * (Math.PI)) / 180;
                 textResults.Text = Math.Tan(temp).ToString();
             }
+        }
+
+        private void btnSqrt_Click(object sender, EventArgs e)
+        {
+            set1Parameter(textFirstNumber.Text);
+            if (!control)
+                MessageBox.Show(message);
+            else
+                textResults.Text = Math.Sqrt(firstNumber).ToString();
+        }
+
+        private void btnLog_Click(object sender, EventArgs e)
+        {
+            set2Parameter(textFirstNumber.Text, textSecondNumber.Text);
+            if (!control)
+                MessageBox.Show(message);
+            else
+                textResults.Text = Math.Log(firstNumber, secondNumber).ToString();
+
         }
 
         private void textSecondNumber_KeyPress(object sender, KeyPressEventArgs e)
