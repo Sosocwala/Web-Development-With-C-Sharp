@@ -118,6 +118,7 @@ namespace Maths_Class
             this.btnLog.TabIndex = 0;
             this.btnLog.Text = "Log";
             this.btnLog.UseVisualStyleBackColor = true;
+            this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
             // btnTan
             // 
@@ -161,6 +162,7 @@ namespace Maths_Class
             this.btnSqrt.TabIndex = 0;
             this.btnSqrt.Text = "Sqrt";
             this.btnSqrt.UseVisualStyleBackColor = true;
+            this.btnSqrt.Click += new System.EventHandler(this.btnSqrt_Click);
             // 
             // btnSin
             // 
