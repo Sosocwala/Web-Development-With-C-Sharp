@@ -47,7 +47,7 @@ namespace Partial_ve_Sealed_Class
             resultText += "Name: " + employee.name + Environment.NewLine;
             resultText += "Surname: " + employee.surname + Environment.NewLine;
             resultText += "Age: " + employee.age.ToString() + Environment.NewLine;
-            textOutput.Text = resultText;
+            textOutput.Text = resultText;  
         }
     }
 }
