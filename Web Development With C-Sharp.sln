@@ -52,6 +52,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Class", "Abstract_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partial ve Sealed Class", "Partial ve Sealed Class\Partial ve Sealed Class.csproj", "{0510C428-4C64-48D3-B881-57373C3D9C17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{EEEDB54A-025E-41C8-8918-8265CCBE9A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{AE917B42-5FDD-45B6-991B-8FF55017BB5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,6 +146,14 @@ Global
 		{0510C428-4C64-48D3-B881-57373C3D9C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0510C428-4C64-48D3-B881-57373C3D9C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0510C428-4C64-48D3-B881-57373C3D9C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEDB54A-025E-41C8-8918-8265CCBE9A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEDB54A-025E-41C8-8918-8265CCBE9A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEDB54A-025E-41C8-8918-8265CCBE9A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEDB54A-025E-41C8-8918-8265CCBE9A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE917B42-5FDD-45B6-991B-8FF55017BB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE917B42-5FDD-45B6-991B-8FF55017BB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE917B42-5FDD-45B6-991B-8FF55017BB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE917B42-5FDD-45B6-991B-8FF55017BB5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
