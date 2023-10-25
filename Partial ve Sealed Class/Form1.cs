@@ -40,14 +40,14 @@ namespace Partial_ve_Sealed_Class
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            Employee employee = new Employee();
+            Employee employee = new Employee();         
             employee.setValues();
             string resultText = "";
             resultText += "ID: " + employee.ID.ToString() + Environment.NewLine;
             resultText += "Name: " + employee.name + Environment.NewLine;
             resultText += "Surname: " + employee.surname + Environment.NewLine;
-            resultText += "Age: " + employee.age.ToString() + Environment.NewLine;
-            textOutput.Text = resultText;  
+            resultText += "Age: " + employee.age.ToString() + Environment.NewLine; 
+            textOutput.Text = resultText;    
         }
     }
 }
