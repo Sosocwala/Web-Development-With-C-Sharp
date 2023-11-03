@@ -58,6 +58,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception Handling", "Exception Handling\Exception Handling.csproj", "{F6AE4DA0-7890-444E-BDF6-2B8FC8430D5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryUsing", "DirectoryUsing\DirectoryUsing.csproj", "{83957428-375F-4F1F-B087-B6064F547825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileandFileInfoClass", "FileandFileInfoClass\FileandFileInfoClass.csproj", "{7EE2A35F-157D-4657-BEB8-2EA6C7E42D3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +164,14 @@ Global
 		{F6AE4DA0-7890-444E-BDF6-2B8FC8430D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6AE4DA0-7890-444E-BDF6-2B8FC8430D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6AE4DA0-7890-444E-BDF6-2B8FC8430D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83957428-375F-4F1F-B087-B6064F547825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83957428-375F-4F1F-B087-B6064F547825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83957428-375F-4F1F-B087-B6064F547825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83957428-375F-4F1F-B087-B6064F547825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE2A35F-157D-4657-BEB8-2EA6C7E42D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE2A35F-157D-4657-BEB8-2EA6C7E42D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE2A35F-157D-4657-BEB8-2EA6C7E42D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE2A35F-157D-4657-BEB8-2EA6C7E42D3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
